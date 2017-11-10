@@ -1,4 +1,3 @@
-import cs112_f17_week6_linter
 from tkinter import *
 import random
 
@@ -297,7 +296,6 @@ def playTarget():
     run(viewWidth, viewHeight)
     
 def main():
-    cs112_f17_week6_linter.lint() # check style rules
     playTarget()
 
 if __name__ == '__main__':

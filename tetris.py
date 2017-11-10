@@ -1,5 +1,3 @@
-# Barebones timer, mouse, and keyboard events
-
 from tkinter import *
 import random
 import copy
