@@ -48,7 +48,7 @@ def keyPressed(event, data):
     if event.keysym in ["Up", "Right"]:
         data.level += 1
     #define decreasing action
-    elif event.keysym in ["Down", "Left"]:
+    elif data.level > 1 and event.keysym in ["Down", "Left"]:
         data.level -= 1
     
 #define redrawAll
